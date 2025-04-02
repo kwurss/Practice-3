@@ -1,8 +1,9 @@
 #include <stdio.h>
+#include <string.h>
 
 int main() {
     
-    char colors[3][10] = {"красный", "синий", "зеленый"};
+    char colors[3][15] = {"красный", "синий", "зеленый"};
 
     strcpy(colors[0], "желтый");
 
